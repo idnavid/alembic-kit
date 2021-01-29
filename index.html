@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="description" content="Date TBA University of Melboune, Australia (virtual conference)" />
+  <meta name="author" content="" />
+  
+  <meta property="og:title" content="MLSP 2021" />
+  <meta property="og:image" content="./assets/mlsplogo.png" />
+  
+  <link rel="shortcut icon" href="/assets/mlsplogo.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/mlsplogo.ico" type="image/x-icon">
+  
+  <title>MLSP 2021</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/assets/css/main.css" rel="stylesheet" />
+  
+  <!-- jQuery -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  
+  <!-- Bootstrap toggle plugin -->
+  <link href="/assets/vendor/bootstrap4-toggle/css/bootstrap4-toggle.min.css" rel="stylesheet">
+  <script src="/assets/vendor/bootstrap4-toggle/js/bootstrap4-toggle.min.js"></script>
+  
+  <!-- MathJax -->
+  <script id="MathJax-script" async src="/assets/vendor/mathjax/tex-mml-chtml.js"></script>
+  
+  <!-- Timezone conversion -->
+  <script src="/assets/js/time.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // Report current time zone and offset
+      var date = new Date();
+      var dt = date.getTimezoneOffset();
+      var zone = Intl.DateTimeFormat().resolvedOptions().timeZone + ", UTC" + (dt<0 ? "+" : "-") + (Math.abs(dt)/60);
+      
+      // Add button to show local time
+      $('#timezone-info').append(' (' + zone + ').');
+    }); // document.ready()
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45301536-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-45301536-4');
+  </script>
+</head>
+
+
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/"
+      >MLSP</a
+    >
+    <button
+      class="navbar-toggler ml-auto"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+          
+          
+          
+              <li class="nav-item ">
+                <a class="nav-link" href="https://ieeemlsp.cc">Home</a>
+              </li>
+            
+        
+          
+          
+          
+            <li class="nav-item dropdown ">
+            <a href="https://ieeemlsp.cc" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organization <span class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/organization">Conference Organization</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/past-workshops">Past Workshops</a>
+            
+            </div>
+            </li>
+            
+        
+          
+          
+          
+            <li class="nav-item dropdown ">
+            <a href="https://ieeemlsp.cc" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Authors <span class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/call-for-papers">Call for Papers and Schedule</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/paper-submission">Paper Submission</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/code-of-ethics-and-policies">Code of Ethics and Policies</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/review-criteria">Paper Evaluation Process and Review Criteria</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/presentation-guidelines">Presentation and Session Guidelines</a>
+            
+            </div>
+            </li>
+            
+        
+          
+          
+          
+            <li class="nav-item dropdown ">
+            <a href="https://ieeemlsp.cc" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Program <span class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/full-program">Full Program</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/monday-september-21-2020">• Monday, September 21</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/tuesday-september-22-2020">• Tuesday, September 22</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/wednesday-september-23-2020">• Wednesday, September 23</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/thursday-september-24-2020">• Thursday, September 24</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/keynote-lectures">Keynote Lectures</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/tutorials">Tutorials</a>
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/awards">Awards</a>
+            
+            </div>
+            </li>
+            
+        
+          
+          
+          
+            <li class="nav-item dropdown ">
+            <a href="https://ieeemlsp.cc" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration <span class="caret"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+              <a class="dropdown-item" href="https://ieeemlsp.cc/registration-information">Registration Information</a>
+            
+            </div>
+            </li>
+            
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+ <!-- Header -->
+<header class="bg-primary mb-5">
+  <div class="container">
+      <div class="site-branding row">
+        <div class="col-2 site-title">
+          <h1 class="site-title-heading">
+            <a href="#" title="MLSP" rel="home">
+              <img src="./assets/mlsplogo.png" width="10%" border="0" style="margin-top:10px; min-width:60px;">
+            </a>
+          </h1>
+        </div>
+        <div class="col-10">
+          <div class="site-description">
+                <h1 class="display-4 text-white">MLSP 2021</h1>
+                <p class="text-white-50">
+                  IEEE International Workshop on <br /> MACHINE LEARNING FOR SIGNAL PROCESSING
+                </p>
+                <p class="text-white-50">
+                  Dates TBA University of Melbourne, Melbourne, Australia (virtual conference)
+                </p>
+          </div><!-- Close col site description-->
+        </div>
+      </div><!--row .site-branding-->
+  </div>
+</header>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    <div class="row">
+  <div class="col-md-8 mb-5">
+    <h2>About the MLSP Workshop</h2>
+    <hr />
+    <p>
+      The 31st MLSP workshop in the series of workshops organized by the IEEE Signal 
+      Processing Society MLSP Technical Committee will take place at the University 
+      of Melboune, Australia, in a fully virtual program due to the pandemic, and 
+      present the most recent and exciting advances in machine 
+      learning for signal processing through keynote talks, tutorials, special and regular 
+      single-track sessions as well as matchmaking events. 
+      The presented papers will be published in and indexed by 
+      <a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore</a>. 
+    </p>
+    <div class="alert alert-primary" role="alert">
+      <p>
+        <strong>Access the online platform:</strong> <a href="https://mlsp-virtual.org/">https://mlsp-virtual.org/</a>
+      </p>
+      <p>
+        Registered participants can log in using their credentials that are sent out over email on the first morning of the conference. 
+        The conference is live streamed over Zoom. 
+        The online platform also hosts the accepted papers, presentation videos, and lets the participants post questions to paper authors.
+        If you experience any problems with logging into the online platform, contact <a href="mailto:Ljones@conferencecatalysts.com">Conference Catalysts</a>.
+      </p>
+    </div>    
+    <!--
+    <div class="alert alert-primary" role="alert">
+      <p>
+        MLSP 2020 will be a virtual conference which can only be attended online.
+      </p>
+      <p>
+        The safety and well-being of all conference participants is our priority. Thus this year's conference will be organized as a fully virtual event. We will ensure that it is possible to present your scientific contribution to the MLSP2020 audience. Details on the arrangements will be published later.
+      </p>    
+      <p>
+        If you have any questions or need additional information, please email us for further details: 
+        <a href="mailto:mlsp2020-chair@ieeemlsp.cc">mlsp2020-chair@ieeemlsp.cc</a>
+      </p>
+    </div>
+    -->
+  </div>
+  <div class="col-md-4 mb-5">
+  <h2>Key Dates</h2>
+  <hr />
+  <ul>
+  <li><strong>Special session call deadline:</strong><br />
+    TBD</li>
+  <li><strong>Paper submission deadline:</strong><br />
+    TBD</li>
+  <li><strong>Decision notification:</strong><br />
+    TBD</li>
+  <li><strong>Camera-ready paper deadline:</strong><br />
+    TBD</li>
+  <li><strong>Author registration deadline:</strong><br />
+    TBD</li>
+  <li><strong>Paper presentation upload deadline:</strong><br />
+    TBD</li>  
+  <li><strong>Participation registration deadline:</strong><br />
+    TBD</li>  
+  </ul>
+</div>
+
+</div>
+<!-- /.row -->
+
+<div class="row">
+  <!--
+  <div class="col-md-4 mb-5">
+    <div class="card border-0 shadow h-100">
+      <img class="card-img-top" src="/assets/img/call-for-papers-bg.jpg" alt="" />
+      <div class="card-body">
+        <h4 class="card-title">Call for papers</h4>
+        <p class="card-text">
+          MLSP 2020 invites prospective authors to submit their contributions
+          that are in the interface of machine learning and signal processing.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="call-for-papers/" class="btn btn-primary">Find Out More!</a>
+      </div>
+    </div>
+  </div>
+  -->
+  <!--
+  <div class="col-md-4 mb-5">
+    <div class="card border-0 shadow h-100">
+      <img class="card-img-top" src="/assets/img/venue-bg.jpg" alt="" />
+      <div class="card-body">
+        <h4 class="card-title">Attend the workshop</h4>
+        <p class="card-text">
+          This years' workshop will be organized in the capital region of Finland.
+          The Helsinki region provides both urban experiences and Nordic exotics.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="venue/" class="btn btn-primary">Find Out More!</a>
+      </div>
+    </div>
+  </div>
+  -->
+  <!--
+  <div class="col-md-4 mb-5">
+    <div class="card border-0 shadow h-100">
+      <img class="card-img-top" src="" alt="" />
+      <div class="card-body">
+        <h4 class="card-title">Competition information</h4>
+        <p class="card-text">
+          A Data Analysis and Signal Processing Competition is being organized in 
+          conjunction with the workshop. Winners will be announced and awards given at the workshop.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="competition/" class="btn btn-primary">Find Out More!</a>
+      </div>
+    </div>
+  </div>
+  -->
+  <!--
+  <div class="col-md-4 mb-5">
+    <div class="card border-0 shadow h-100">
+      <img class="card-img-top" src="/assets/img/venue-dipoli2.jpg" alt="" />
+      <div class="card-body">
+        <h4 class="card-title">Special sessions</h4>
+        <p class="card-text">
+          In addition to the regular track, MLSP has several special session tracks that are 
+          included in the technical program.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="special-sessions/" class="btn btn-primary">Find Out More!</a>
+      </div>
+    </div>
+  </div>
+  -->
+  <div class="col-md-4 mb-5">
+    <div class="card border-0 shadow h-100">
+      <img class="card-img-top" src="./assets/img/call-for-papers-bg.jpg" alt="" />
+      <div class="card-body">
+        <h4 class="card-title">Full program available</h4>
+        <p class="card-text">
+           Once it has been finalized, the full technical program will be made available here. 
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="full-program/" class="btn btn-primary">Technical Program</a>
+      </div>
+    </div>
+  </div>  
+  <div class="col-md-4 mb-5">
+    <div class="card border-0 shadow h-100">
+      <img class="card-img-top" src="/assets/img/venue-dipoli2.jpg" alt="" />
+      <div class="card-body">
+        <h4 class="card-title">Free registration open</h4>
+        <p class="card-text">
+          The participation to the IEEE MLSP 2021 Workshop is free of charge for attendees.
+          The event will be fully online with recorded presentations and live sessions.
+          The registration closes on <strong>September 13</strong>.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="https://registration.contio.fi/tavicon/Registration/Login?id=1009-T_1009-36" class="btn btn-primary">Register here!</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.row -->
+
+<div class="container">
+  <h3>Sponsors</h3>
+  <hr>
+  <div class="row">  
+    <!-- This is one sponsor block -->
+    <div class="col-md-3 mb-5">
+      <img src="./assets/img/ieee-signal-processing-soc.jpg" width="100%">
+    </div>
+    <!-- /.sponsor block -->
+    <div class="col-md-3 mb-5">
+      If you are interested in supporting MLSP2021, please contact the General Chair <a href="mailto:mlsp2021-chair@ieeemlsp.cc">Krim Seghouane</a>.
+    </div>
+  </div>
+  <!-- /.row -->
+</div>
+
+
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">
+      Copyright &copy; IEEE MLSP 2021. View the complete <a class="text-white" href="https://www.ieee.org/security-privacy.html">IEEE Privacy Policy</a>. 
+    </p>
+  </div>
+  <!-- /.container -->
+  <div>
+    <div id="455789542219685297" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
+      <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+      <script>
+        window.addEventListener("load", function(){
+          window.cookieconsent.initialise(json)
+        });
+      </script>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
